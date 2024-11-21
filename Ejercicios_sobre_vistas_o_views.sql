@@ -52,7 +52,6 @@ insert into asignaturas_curso (cursos.cod_curso, cursos.nombre, cursos.precio,
 asignaturas.cod_asignatura, asignaturas.nombre, asignaturas.cod_curso, asignaturas.cod_profesor, asignaturas.duracion) 
 values (12, 'CURSO12', 180, 51, 'asignatura12', 12, 15, 33);
 
-
 /*7. Vamos ahora a probar el Check Option. Vamos a insertar una fila en la vista
 “cursos_precio_alto” que sea de un curso que no cumpla la condición (precio
 > 150) ¿funciona?*/
